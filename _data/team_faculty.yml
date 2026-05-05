@@ -1,0 +1,12 @@
+- name: Irina Shklovski
+  photo: irina.png
+  info: University of Copenhagen
+  email: ias@di.ku.dk
+  web: <a href="http://miswritings.org/">Webpage</a>
+
+- name: Amir H. Payberah
+  photo: amir.jpg
+  info: KTH 
+  email: payberah@kth.se
+  web: <a href="https://payberah.github.io/">Webpage</a>
+

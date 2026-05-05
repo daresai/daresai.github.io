@@ -1,0 +1,54 @@
+I"¥<h1>Team</h1>
+<center><img src="/images/team.jpg" style="border-radius: 0;" width="1200" height="250" align="center" /></center>
+<p><br /></p>
+
+<div class="row">
+
+
+<div class="col-sm-4 clearfix">
+  <img src="http://localhost:4000/images/teampic/irina.png" class="img-responsive" style="float:left; width:30%; margin-right:8px;" />
+  
+  <div style="overflow:hidden;">
+  <h4>Irina Shklovski</h4>
+  <h5><i>University of Copenhagen</i></h5>
+  ias@di.ku.dk
+  <br /><a href="http://miswritings.org/">Webpage</a>
+  <br />
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-sm-4 clearfix">
+  <img src="http://localhost:4000/images/teampic/amir.jpg" class="img-responsive" style="float:left; width:30%; margin-right:8px;" />
+  
+  <div style="overflow:hidden;">
+  <h4>Amir H. Payberah</h4>
+  <h5><i>KTH</i></h5>
+  payberah@kth.se
+  <br /><a href="https://payberah.github.io/">Webpage</a>
+  <br />
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<p><br /><br /></p>
+:ET
