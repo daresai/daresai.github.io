@@ -15,7 +15,7 @@ permalink: /team/
 {% assign uni = site.data.universities[university.name] %}
 {% assign first_member = university.items[0] %}
 <div style="margin-top:50px; margin-bottom:30px;">
-<a href="{{ first_member.university_url }}"
+<a href="{{ first_member.uni.url }}"
 target="_blank"
 rel="noopener noreferrer"
 style="text-decoration:none; color:inherit;">
