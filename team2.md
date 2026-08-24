@@ -24,6 +24,9 @@ style="text-decoration:none; color:inherit;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/universities/{{ first_member.logo }}" alt="{{ university.name }}" style="height:60px; vertical-align:middle; margin-right:10px;"> {{ university.name }}
 </h2>
 </a>
+University: {{ university.name }}<br>
+URL: {{ uni.url }}<br>
+Logo: {{ uni.logo }}<br>
 </div>
 
 <div class="row">
@@ -33,9 +36,6 @@ style="text-decoration:none; color:inherit;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="float:left; width:30%; margin-right:8px;">
 <div style="overflow:hidden;">
 <h4>{{ member.name }}</h4>
-University: {{ university.name }}<br>
-URL: {{ uni.url }}<br>
-Logo: {{ uni.logo }}<br>
 {{ member.info }}<br>
 
 {% if member.email %}
