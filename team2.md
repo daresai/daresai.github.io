@@ -10,51 +10,35 @@ permalink: /team/
 <br>
 
 
-{% assign universities = site.data.team | group_by: "university" %}
-
+{% assign universities = site.data.team_faculty | group_by: "university" %}
 {% for university in universities %}
-
-<div class="university-header">
-  <img
-    src="{{ '/assets/images/universities/' | append: university.name | slugify | append: '.png' | relative_url }}"
-    alt="{{ university.name }} logo"
-    class="university-logo"
-  >
-
-  <h2>{{ university.name }}</h2>
+{% assign first_member = university.items[0] %}
+<div style="margin-top:50px; margin-bottom:30px;">
+<h2>
+<img src="{{l }}/images/universities/{{ first_member.logo }}" alt="{{ university.name }}" style="height:60px; vertical-align:middle; margin-right:10px;"> {{ university.name }}
+</h2>
 </div>
 
-<div class if person.photo %}
-    <img src/team/' | append: person.photo | relative_url }}
-    {% endif %}
+<div class="row">
+{% for member in university.items %}
 
-    <h3>{{ person.name }}</h3>
+<div class="col-sm-4 clearfix" style="margin-bottom:25px;">
+<img src="{{ site.base{{ member.photo }}" class="img-responsive" style="float:left; width:30%; margin-right:8px;">
+<div style="overflow:hidden;">
+<h4>{{ member.name }}</h4>
+<h5><i>{{ member.info }}</i></h5>
 
-    {% if person.info %}
-    <p>{{ person.info }}</p>
-    {% endif %}
+{% if member.email %}
+{{ member.email }}<br>
+{% endif %}
 
-    {% if person.email %}
-    <p>
-      mailto:{{ person.email }}">
-        {{ person.email }}
-      </a>
-    </p>
-    {% endif %}
+{% if member.web %}
+{{ member.web }}<br>
+{% endif %}
 
-    {% if person.web %}
-    <p>
-        <a hrefon.web }}Webpage
-        </a>
-    </p>
-    {% endif %}
-
-  </div>
-  {% endfor %}
-</div>
-
-{% endfor %}
-
+{% if member.since %}
+{{ member.since }}
+{% endif %}
 </div>
 
 </div>
@@ -63,6 +47,6 @@ permalink: /team/
 
 </div>
 
-</div>
+<hr>
 
 {% endfor %}
