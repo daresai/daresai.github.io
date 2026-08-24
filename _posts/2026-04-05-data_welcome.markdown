@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome"
-date:   2026-05-05
+title:  "DARES Launch"
+date:   2026-06-22
 author: DARES team
 categories: blog
 ---
