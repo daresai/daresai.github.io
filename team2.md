@@ -23,7 +23,7 @@ permalink: /team/
 {% for member in university.items %}
 
 <div class="col-sm-4 clearfix" style="margin-bottom:25px;">
-<img src="{{ site.base{{ member.photo }}" class="img-responsive" style="float:left; width:30%; margin-right:8px;">
+<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="float:left; width:30%; margin-right:8px;">
 <div style="overflow:hidden;">
 <h4>{{ member.name }}</h4>
 {{ member.info }}<br>
