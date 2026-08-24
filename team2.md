@@ -8,18 +8,10 @@ permalink: /team/
 <h1>Team</h1>
 <center><img src="/images/team.jpg" style="border-radius: 0;" width="1200" height="250" align="center"></center>
 <br>
-
-{% assign universities = site.data.team_faculty | map: "university" | uniq %}
-{% for university in universities %}
-{% assign members = site.data.team_faculty | where: "university", university %}
-{% assign first_member = members.first %}
-<div class="university-section" style="margin-bottom:60px;">
-<div style="text-align:center; margin-bottom:30px;">
-<img src="{{ site.baseurl }}/images/universities/{{ first_member.logo }}"alt="{{2>
-
-</div>
-<div class="row">
-{% for member in members %}
+{% assign grouped_members = site.data.team_faculty | group_by: "university" %}
+{% for group in grouped_members %}
+<h2>{{ group.name }}</h2>
+{% for member in group.items %}
 <div class="col-sm-4 clearfix" style="margin-bottom:25px;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/to }}"
 class="img-responsive"
