@@ -1,5 +1,6 @@
 - name: Irina Shklovski
   photo: irina.png
+  university: University of Copenhagen
   info: University of Copenhagen
   email: ias@di.ku.dk
   web: <a href="http://miswritings.org/">Webpage</a>
@@ -7,53 +8,62 @@
 - name: Laura Watts
   photo: laurawatts_portrait_800px.jpg
   info: University of Copenhagen 
+  university: University of Copenhagen 
   email: lw@hum.ku.dk
   web: <a href="https://sand14.com/">Webpage</a>
 
 - name: Derya Akbaba
   photo: akbaba.png
-  info: University of Copenhagen 
+  info: University of Copenhagen
+  university: University of Copenhagen 
   email: gotdairyya@gmail.com
   web: <a href="https://gotdairyya.github.io/">Webpage</a>
 
 - name: Amir H. Payberah
   photo: amir.jpg
-  info: KTH 
+  info: KTH
+  university: KTH
   email: payberah@kth.se
   web: <a href="https://payberah.github.io/">Webpage</a>
 
 - name: Kjetil Rommetveit
   photo: KjetilRommetveit.jpeg
   info: University of Bergen 
+  university: University of Bergen 
   email: Kjetil.Rommetveit@uib.no
   web: <a href="https://www4.uib.no/en/find-employees/kjetil.rommetveit">Webpage</a>
 
 - name: Irina Jackiva
   photo: Irina_Jackiva2-1-680x680.jpg
-  info: Transport and Telecommunication Institute (TSI) 
+  info: Transport and Telecommunication Institute (TSI)
+  university: Transport and Telecommunication Institute (TSI) 
   email: Jackiva.I@tsi.lv
   #web: <a href="https://payberah.github.io/">Webpage</a>
 
 - name: Dmitry Pavlyuk
   photo: DmitryPavlyuk.jpg
-  info: Transport and Telecommunication Institute (TSI) 
+  info: Transport and Telecommunication Institute (TSI)
+  university: Transport and Telecommunication Institute (TSI) 
   email: Pavljuks.D@tsi.lv
   #web: <a href="https://payberah.github.io/">Webpage</a>  
 
 - name: Antti Silvast
   photo: Antti_Silvast_22296811_1698774324.jpg.webp
   info: LUT University 
+  university: LUT University 
   email: Antti.Silvast@lut.fi
   web: <a href="https://www.lut.fi/en/profiles/antti-silvast">Webpage</a>
 
 - name: Micheal Tuape
   photo: Micheal_Tuape_13725837_1668614752.jpeg.webp
   info: LUT University 
+  university: LUT University 
   email: Micheal.Tuape@lut.fi
   web: <a href="https://www.lut.fi/en/profiles/micheal-tuape">Webpage</a>
 
 - name: Ivan Ojeda-Pereira
   photo: IvanLUT.jpg
   info: LUT University 
+  university: LUT University 
   email: ivan.ojeda-pereira@lut.fi
   web: <a href="https://www.lut.fi/en/profiles/ivan-ojeda-pereira">Webpage</a>
