@@ -21,7 +21,7 @@ rel="noopener noreferrer"
 style="text-decoration:none; color:inherit;">
 
 <h2 style="display:flex; align-items:center;">
-<img src="{{ site.url }}{{ site.baseurl }}/images/universities/{{ first_member.logo }}" alt="{{ university.name }}" style="height:60px; vertical-align:middle; margin-right:10px;"> {{ uni.name }}
+<img src="{{ site.url }}{{ site.baseurl }}/images/universities/{{ uni.logo }}" alt="{{ university.name }}" style="height:60px; vertical-align:middle; margin-right:10px;"> {{ uni.name }}
 </h2>
 </a>
 </div>
