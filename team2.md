@@ -14,13 +14,13 @@ permalink: /team/
 {% for university in universities %}
 {% assign first_member = university.items[0] %}
 <div style="margin-top:50px; margin-bottom:30px;">
-<a href.first_member.university_url }}"
+<a href.university_url }}"
 target="_blank"
 rel="noopener noreferrer"
 style="text-decoration:none; color:inherit;">
 
 <h2 style="display:flex; align-items:center;">
-<img src="{{l }}/images/universities/{{ first_member.logo }}" alt="{{ university.name }}" style="height:60px; vertical-align:middle; margin-right:10px;"> {{ university.name }}
+<img src="{{ site.url }}{{ site.baseurl }}/images/universities/{{ first_member.logo }}" alt="{{ university.name }}" style="height:60px; vertical-align:middle; margin-right:10px;"> {{ university.name }}
 </h2>
 </a>
 </div>
