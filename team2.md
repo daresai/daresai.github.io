@@ -12,9 +12,10 @@ permalink: /team/
 
 {% assign universities = site.data.team_faculty | group_by: "university" %}
 {% for university in universities %}
+{% assign uni = site.data.universities[university.name] %}
 {% assign first_member = university.items[0] %}
 <div style="margin-top:50px; margin-bottom:30px;">
-<a href.university_url }}"
+<a href="{{ first_member.university_url }}"
 target="_blank"
 rel="noopener noreferrer"
 style="text-decoration:none; color:inherit;">

@@ -1,0 +1,14 @@
+UCPH:
+  name: University of Copenhagen
+  logo: ku.png
+  url: https://www.ku.dk
+
+DTU:
+  name: Technical University of Denmark
+  logo: dtu.png
+  url: https://www.dtu.dk
+
+KTH:
+  name: KTH
+  logo: kth.png
+  url: https://www.kth.se/
