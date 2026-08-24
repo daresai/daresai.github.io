@@ -54,6 +54,4 @@ style="text-decoration:none; color:inherit;">
 
 </div>
 
-<hr>
-
 {% endfor %}
