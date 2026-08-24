@@ -1,6 +1,7 @@
 - name: Irina Shklovski
   photo: irina.png
   university: University of Copenhagen
+  university_url: https://www.ku.dk
   info: Department of Computer Science
   email: ias@di.ku.dk
   web: <a href="http://miswritings.org/">Webpage</a>
@@ -9,7 +10,8 @@
 - name: Laura Watts
   photo: laurawatts_portrait_800px.jpg
   info: Center for Applied Ecological Thinking
-  university: University of Copenhagen 
+  university: University of Copenhagen
+  university_url: https://www.ku.dk
   email: lw@hum.ku.dk
   web: <a href="https://sand14.com/">Webpage</a>
   logo: ku.png
@@ -17,7 +19,8 @@
 - name: Derya Akbaba
   photo: akbaba.png
   info: Department of Computer Science
-  university: University of Copenhagen 
+  university: University of Copenhagen
+  university_url: https://www.ku.dk 
   email: gotdairyya@gmail.com
   web: <a href="https://gotdairyya.github.io/">Webpage</a>
   logo: ku.png
@@ -25,6 +28,7 @@
 - name: Amir H. Payberah
   photo: amir.jpg
   info: Department of Computer Science
+  university_url: https://www.ku.dk
   university: KTH
   email: payberah@kth.se
   web: <a href="https://payberah.github.io/">Webpage</a>
@@ -32,8 +36,9 @@
 
 - name: Kjetil Rommetveit
   photo: KjetilRommetveit.jpeg
-  info: Centre for the Study of the Sciences and the Humanities
+  info: Centre for Study of Sciences & Humanities
   university: University of Bergen 
+  university_url: https://www.ku.dk
   email: Kjetil.Rommetveit@uib.no
   web: <a href="https://www4.uib.no/en/find-employees/kjetil.rommetveit">Webpage</a>
   logo: bergen.png
@@ -42,6 +47,7 @@
   photo: Irina_Jackiva2-1-680x680.jpg
   info: Engineering Faculty
   university: Transport and Telecommunication Institute (TSI) 
+  university_url: https://www.ku.dk
   email: Jackiva.I@tsi.lv
   #web: <a href="https://payberah.github.io/">Webpage</a>
   logo: tsi.jpg
@@ -50,6 +56,7 @@
   photo: DmitryPavlyuk.jpg
   info: Engineering Faculty
   university: Transport and Telecommunication Institute (TSI) 
+  university_url: https://www.ku.dk
   email: Pavljuks.D@tsi.lv
   #web: <a href="https://payberah.github.io/">Webpage</a>
   logo: tsi.png
@@ -58,6 +65,7 @@
   photo: Antti_Silvast_22296811_1698774324.jpg.webp
   info: Social Sciences
   university: LUT University 
+  university_url: https://www.ku.dk
   email: Antti.Silvast@lut.fi
   web: <a href="https://www.lut.fi/en/profiles/antti-silvast">Webpage</a>
   logo: lut.png
@@ -66,6 +74,7 @@
   photo: Micheal_Tuape_13725837_1668614752.jpeg.webp
   info: School of Engineering Sciences
   university: LUT University 
+  university_url: https://www.ku.dk
   email: Micheal.Tuape@lut.fi
   web: <a href="https://www.lut.fi/en/profiles/micheal-tuape">Webpage</a>
   logo: lut.png
@@ -74,6 +83,7 @@
   photo: IvanLUT.jpg
   info: Social Sciences
   university: LUT University 
+  university_url: https://www.ku.dk
   email: ivan.ojeda-pereira@lut.fi
   web: <a href="https://www.lut.fi/en/profiles/ivan-ojeda-pereira">Webpage</a>
   logo: lut.png
