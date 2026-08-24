@@ -24,8 +24,9 @@ style="text-decoration:none; color:inherit;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/universities/{{ first_member.logo }}" alt="{{ university.name }}" style="height:60px; vertical-align:middle; margin-right:10px;"> {{ university.name }}
 </h2>
 </a>
-University: {{ university.name }}<br>
+University: {{ uni.name }}<br>
 URL: {{ uni.url }}<br>
+Logo: {{ uni.logo }}<br>
 Logo: {{ uni.logo }}<br>
 </div>
 
