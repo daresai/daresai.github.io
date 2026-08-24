@@ -33,6 +33,9 @@ style="text-decoration:none; color:inherit;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="float:left; width:30%; margin-right:8px;">
 <div style="overflow:hidden;">
 <h4>{{ member.name }}</h4>
+University: {{ university.name }}<br>
+URL: {{ uni.url }}<br>
+Logo: {{ uni.logo }}<br>
 {{ member.info }}<br>
 
 {% if member.email %}
