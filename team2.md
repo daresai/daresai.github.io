@@ -15,13 +15,13 @@ permalink: /team/
 {% assign uni = site.data.universities[university.name] %}
 {% assign first_member = university.items[0] %}
 <div style="margin-top:50px; margin-bottom:30px;">
-<a href="{{ member.uni.url }}"
+<a href="{{ first_member.uni.url }}"
 target="_blank"
 rel="noopener noreferrer"
 style="text-decoration:none; color:inherit;">
 
 <h2 style="display:flex; align-items:center;">
-<img src="{{ site.url }}{{ site.baseurl }}/images/universities/{{ first_member.logo }}" alt="{{ university.name }}" style="height:60px; vertical-align:middle; margin-right:10px;"> {{ university.name }}
+<img src="{{ site.url }}{{ site.baseurl }}/images/universities/{{ first_member.logo }}" alt="{{ university.name }}" style="height:60px; vertical-align:middle; margin-right:10px;"> {{ uni.name }}
 </h2>
 </a>
 University: {{ uni.name }}<br>

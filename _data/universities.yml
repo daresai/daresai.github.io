@@ -12,3 +12,18 @@ KTH:
   name: KTH
   logo: kth.png
   url: https://www.kth.se/
+
+Bergen:
+  name: University of Bergen
+  logo: bergen.png
+  url: https://www4.uib.no/en
+
+LUT:
+  name: LUT University
+  logo: LUT.png
+  url: https://www.lut.fi/en
+
+TSI:
+  name: Transport & Telecommunications Institute (TSI)
+  logo: tsi.jpg
+  url: https://tsi.lv/

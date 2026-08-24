@@ -37,7 +37,7 @@
 - name: Kjetil Rommetveit
   photo: KjetilRommetveit.jpeg
   info: Centre for Study of Sciences & Humanities
-  university: University of Bergen 
+  university: Bergen 
   university_url: https://www.ku.dk
   email: Kjetil.Rommetveit@uib.no
   web: <a href="https://www4.uib.no/en/find-employees/kjetil.rommetveit">Webpage</a>
@@ -46,7 +46,7 @@
 - name: Irina Jackiva
   photo: Irina_Jackiva2-1-680x680.jpg
   info: Engineering Faculty
-  university: Transport and Telecommunication Institute (TSI) 
+  university: TSI 
   university_url: https://www.ku.dk
   email: Jackiva.I@tsi.lv
   #web: <a href="https://payberah.github.io/">Webpage</a>
@@ -55,7 +55,7 @@
 - name: Dmitry Pavlyuk
   photo: DmitryPavlyuk.jpg
   info: Engineering Faculty
-  university: Transport and Telecommunication Institute (TSI) 
+  university: TSI 
   university_url: https://www.ku.dk
   email: Pavljuks.D@tsi.lv
   #web: <a href="https://payberah.github.io/">Webpage</a>
@@ -64,7 +64,7 @@
 - name: Antti Silvast
   photo: Antti_Silvast_22296811_1698774324.jpg.webp
   info: Social Sciences
-  university: LUT University 
+  university: LUT 
   university_url: https://www.ku.dk
   email: Antti.Silvast@lut.fi
   web: <a href="https://www.lut.fi/en/profiles/antti-silvast">Webpage</a>
@@ -73,7 +73,7 @@
 - name: Micheal Tuape
   photo: Micheal_Tuape_13725837_1668614752.jpeg.webp
   info: School of Engineering Sciences
-  university: LUT University 
+  university: LUT 
   university_url: https://www.ku.dk
   email: Micheal.Tuape@lut.fi
   web: <a href="https://www.lut.fi/en/profiles/micheal-tuape">Webpage</a>
@@ -82,7 +82,7 @@
 - name: Ivan Ojeda-Pereira
   photo: IvanLUT.jpg
   info: Social Sciences
-  university: LUT University 
+  university: LUT 
   university_url: https://www.ku.dk
   email: ivan.ojeda-pereira@lut.fi
   web: <a href="https://www.lut.fi/en/profiles/ivan-ojeda-pereira">Webpage</a>
