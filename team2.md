@@ -24,10 +24,6 @@ style="text-decoration:none; color:inherit;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/universities/{{ first_member.logo }}" alt="{{ university.name }}" style="height:60px; vertical-align:middle; margin-right:10px;"> {{ uni.name }}
 </h2>
 </a>
-<p>group name: {{ university.name }}</p>
-<p>uni object: {{ uni | jsonify }}</p>
-<p>url: {{ uni.url }}</p>
-<p>name: {{uni.name}}</p>
 </div>
 
 <div class="row">
