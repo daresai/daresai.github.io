@@ -26,7 +26,7 @@ permalink: /team/
 <img src="{{ site.base{{ member.photo }}" class="img-responsive" style="float:left; width:30%; margin-right:8px;">
 <div style="overflow:hidden;">
 <h4>{{ member.name }}</h4>
-<h5><i>{{ member.info }}</i></h5>
+{{ member.info }}<br>
 
 {% if member.email %}
 {{ member.email }}<br>
