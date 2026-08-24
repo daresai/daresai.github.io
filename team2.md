@@ -8,20 +8,52 @@ permalink: /team/
 <h1>Team</h1>
 <center><img src="/images/team.jpg" style="border-radius: 0;" width="1200" height="250" align="center"></center>
 <br>
-{% assign grouped_members = site.data.team_faculty | group_by: "university" %}
-{% for group in grouped_members %}
-<h2>{{ group.name }}</h2>
-{% for member in group.items %}
-<div class="col-sm-4 clearfix" style="margin-bottom:25px;">
-<img src="{{ site.url }}{{ site.baseurl }}/images/to }}"
-class="img-responsive"
-style="float:left; width:30%; margin-right:8px;" />
-<div style="overflow:hidden;">
-<h4>{{ member.name }}</h4>
-<h5><i>{{ member.info }}</i></h5>
-{{ member.email }}
-<br>{{ member.web }}
-<br>{{ member.since }}
+
+
+{% assign universities = site.data.team | group_by: "university" %}
+
+{% for university in universities %}
+
+<div class="university-header">
+  <img
+    src="{{ '/assets/images/universities/' | append: university.name | slugify | append: '.png' | relative_url }}"
+    alt="{{ university.name }} logo"
+    class="university-logo"
+  >
+
+  <h2>{{ university.name }}</h2>
+</div>
+
+<div class if person.photo %}
+    <img src/team/' | append: person.photo | relative_url }}
+    {% endif %}
+
+    <h3>{{ person.name }}</h3>
+
+    {% if person.info %}
+    <p>{{ person.info }}</p>
+    {% endif %}
+
+    {% if person.email %}
+    <p>
+      mailto:{{ person.email }}">
+        {{ person.email }}
+      </a>
+    </p>
+    {% endif %}
+
+    {% if person.web %}
+    <p>
+        <a hrefon.web }}Webpage
+        </a>
+    </p>
+    {% endif %}
+
+  </div>
+  {% endfor %}
+</div>
+
+{% endfor %}
 
 </div>
 

@@ -18,12 +18,6 @@ permalink: /team/
 <div class="row">
 {% endif %}
 
-{% if member.web %}
-<p>
-<a hrefon.web }}Webpage</a>
-</p>
-{% endif %}
-
 <div class="col-sm-4 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="float:left; width:30%; margin-right:8px;" />
   
