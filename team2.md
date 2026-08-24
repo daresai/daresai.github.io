@@ -27,7 +27,6 @@ style="text-decoration:none; color:inherit;">
 University: {{ uni.name }}<br>
 URL: {{ uni.url }}<br>
 Logo: {{ uni.logo }}<br>
-Logo: {{ uni.logo }}<br>
 </div>
 
 <div class="row">
