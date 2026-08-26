@@ -10,6 +10,11 @@ permalink: /team/
 <br>
 
 
+Universities count: {{ universities.size }}
+{% for university in universities %}
+{{ university.name }} ({{ university.items.size }})<br>
+{% endfor %}
+
 {% assign universities = site.data.team_faculty | group_by: "university" %}
 {{ site.data.team_faculty | size }}
 {% for university in universities %}
