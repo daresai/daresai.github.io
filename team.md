@@ -9,18 +9,11 @@ permalink: /team/
 <center><img src="/images/team.jpg" style="border-radius: 0;" width="1200" height="250" align="center"></center>
 <br>
 
-<h2>debugging - this is team </h2>
-
 {% assign universities = site.data.team_faculty | group_by: "university" %}
 {{ site.data.team_faculty | size }}
 {% for university in universities %}
 {% assign uni = site.data.universities[university.name] %}
 {% assign first_member = university.items[0] %}
-
-Universities count: {{ universities.size }}
-{% for university in universities %}
-{{ university.name }} ({{ university.items.size }})<br>
-{% endfor %}
 
 
 <div style="margin-top:50px; margin-bottom:30px;">
@@ -34,13 +27,6 @@ style="text-decoration:none; color:inherit;">
 </h2>
 </a>
 </div>
-University = {{ university.name }}
-<br>
-Uni object = {{ uni }}
-<br>
-URL = {{ uni.url }}
-<div class="row">
-{% for member in university.items %}
 
 <div class="col-sm-4 clearfix" style="margin-bottom:25px;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="float:left; width:30%; margin-right:8px;">
