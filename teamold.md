@@ -3,7 +3,7 @@ title: "Team"
 layout: gridlay
 excerpt: "Team"
 sitemap: false
-permalink: /team/
+permalink: /teamold/
 ---
 <h1>Team</h1>
 <center><img src="/images/team.jpg" style="border-radius: 0;" width="1200" height="250" align="center"></center>
