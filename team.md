@@ -11,6 +11,7 @@ permalink: /team/
 
 
 {% assign universities = site.data.team_faculty | group_by: "university" %}
+{{ site.data.team_faculty | size }}
 {% for university in universities %}
 {% assign uni = site.data.universities[university.name] %}
 {% assign first_member = university.items[0] %}
