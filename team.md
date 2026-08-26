@@ -9,7 +9,7 @@ permalink: /team/
 <center><img src="/images/team.jpg" style="border-radius: 0;" width="1200" height="250" align="center"></center>
 <br>
 
-
+<h2>debugging</h2>
 Universities count: {{ universities.size }}
 {% for university in universities %}
 {{ university.name }} ({{ university.items.size }})<br>
