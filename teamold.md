@@ -9,6 +9,12 @@ permalink: /team/
 <center><img src="/images/team.jpg" style="border-radius: 0;" width="1200" height="250" align="center"></center>
 <br>
 <h2>debugging - this is teamold</h2>
+
+Universities count: {{ universities.size }}
+{% for university in universities %}
+{{ university.name }} ({{ university.items.size }})<br>
+{% endfor %}
+
 {% assign number_printed = 0 %}
 {% for member in site.data.team_faculty %}
 
