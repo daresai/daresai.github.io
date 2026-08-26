@@ -8,7 +8,7 @@ permalink: /team/
 <h1>Team</h1>
 <center><img src="/images/team.jpg" style="border-radius: 0;" width="1200" height="250" align="center"></center>
 <br>
-
+<h2>debugging</h2>
 {% assign number_printed = 0 %}
 {% for member in site.data.team_faculty %}
 
