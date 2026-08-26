@@ -27,13 +27,25 @@ style="text-decoration:none; color:inherit;">
 </a>
 </div>
 
+
+
+{% for member in site.data.team_faculty %}
+
+{% if member.university == uni_key %}
+
+{% assign even_odd = number_printed | modulo: 3 %}
+
+{% if even_odd == 0 %}
+
+<div class="row">
+
+{% endif %}
+
 <div class="col-sm-4 clearfix" style="margin-bottom:25px;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="float:left; width:30%; margin-right:8px;">
 <div style="overflow:hidden;">
 
-<div class="row">
 
-{% for member in university.items %}
 
 <h4>{{ member.name }}</h4>
 {{ member.info }}<br>
