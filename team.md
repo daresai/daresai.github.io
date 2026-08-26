@@ -31,6 +31,10 @@ style="text-decoration:none; color:inherit;">
 <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="float:left; width:30%; margin-right:8px;">
 <div style="overflow:hidden;">
 
+<div class="row">
+
+{% for member in university.items %}
+
 <h4>{{ member.name }}</h4>
 {{ member.info }}<br>
 
