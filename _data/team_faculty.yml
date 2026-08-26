@@ -4,6 +4,7 @@
   info: Department of Computer Science
   email: ias@di.ku.dk
   web: <a href="http://miswritings.org/">Webpage</a>
+  logo: ku.png
 
 - name: Laura Watts
   photo: laurawatts_portrait_800px.jpg
@@ -11,6 +12,7 @@
   university: University of Copenhagen
   email: lw@hum.ku.dk
   web: <a href="https://sand14.com/">Webpage</a>
+  logo: ku.png
 
 - name: Derya Akbaba
   photo: akbaba.png
@@ -18,7 +20,7 @@
   university: University of Copenhagen
   email: gotdairyya@gmail.com
   web: <a href="https://gotdairyya.github.io/">Webpage</a>
-  #logo: ku.png
+  logo: ku.png
 
 - name: Amir H. Payberah
   photo: amir.jpg
@@ -26,7 +28,7 @@
   university: KTH
   email: payberah@kth.se
   web: <a href="https://payberah.github.io/">Webpage</a>
-  #logo: kth.png
+  logo: kth.png
 
 - name: Kjetil Rommetveit
   photo: KjetilRommetveit.jpeg
@@ -34,7 +36,7 @@
   university: Bergen
   email: Kjetil.Rommetveit@uib.no
   web: <a href="https://www4.uib.no/en/find-employees/kjetil.rommetveit">Webpage</a>
-  #logo: bergen.png
+  logo: bergen.png
 
 - name: Irina Jackiva
   photo: Irina_Jackiva2-1-680x680.jpg
@@ -42,7 +44,7 @@
   university: TSI
   email: Jackiva.I@tsi.lv
   #web: <a href="https://payberah.github.io/">Webpage</a>
-  #logo: tsi.jpg
+  logo: tsi.jpg
 
 - name: Dmitry Pavlyuk
   photo: DmitryPavlyuk.jpg
@@ -50,7 +52,7 @@
   university: TSI
   email: Pavljuks.D@tsi.lv
   #web: <a href="https://payberah.github.io/">Webpage</a>
-  #logo: tsi.png
+  logo: tsi.png
 
 - name: Antti Silvast
   photo: Antti_Silvast_22296811_1698774324.jpg.webp
@@ -58,7 +60,7 @@
   university: LUT
   email: Antti.Silvast@lut.fi
   web: <a href="https://www.lut.fi/en/profiles/antti-silvast">Webpage</a>
-  #logo: lut.png
+  logo: lut.png
 
 - name: Micheal Tuape
   photo: Micheal_Tuape_13725837_1668614752.jpeg.webp
@@ -66,7 +68,7 @@
   university: LUT
   email: Micheal.Tuape@lut.fi
   web: <a href="https://www.lut.fi/en/profiles/micheal-tuape">Webpage</a>
-  #logo: lut.png
+  logo: lut.png
 
 - name: Ivan Ojeda-Pereira
   photo: IvanLUT.jpg
@@ -74,4 +76,4 @@
   university: LUT
   email: ivan.ojeda-pereira@lut.fi
   web: <a href="https://www.lut.fi/en/profiles/ivan-ojeda-pereira">Webpage</a>
-  #logo: lut.png
+  logo: lut.png
