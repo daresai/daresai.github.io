@@ -25,7 +25,11 @@ style="text-decoration:none; color:inherit;">
 </h2>
 </a>
 </div>
-
+University = {{ university.name }}
+<br>
+Uni object = {{ uni }}
+<br>
+URL = {{ uni.url }}
 <div class="row">
 {% for member in university.items %}
 
