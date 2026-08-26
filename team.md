@@ -9,17 +9,20 @@ permalink: /team/
 <center><img src="/images/team.jpg" style="border-radius: 0;" width="1200" height="250" align="center"></center>
 <br>
 
-<h2>debugging - this is team and i am not loading uni</h2>
-Universities count: {{ universities.size }}
-{% for university in universities %}
-{{ university.name }} ({{ university.items.size }})<br>
-{% endfor %}
+<h2>debugging - this is team </h2>
 
 {% assign universities = site.data.team_faculty | group_by: "university" %}
 {{ site.data.team_faculty | size }}
 {% for university in universities %}
 {% assign uni = site.data.universities[university.name] %}
 {% assign first_member = university.items[0] %}
+
+Universities count: {{ universities.size }}
+{% for university in universities %}
+{{ university.name }} ({{ university.items.size }})<br>
+{% endfor %}
+
+
 <div style="margin-top:50px; margin-bottom:30px;">
 <a href="{{ uni.url }}"
 target="_blank"
