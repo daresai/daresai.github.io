@@ -1,0 +1,90 @@
+---
+---
+
+// Serif theme palette and typography.
+$primary: #e5261f;
+$primary-dark: #1B46BC;
+$secondary: #86AEDF;
+$black: #2f2f41;
+$white: #ffffff;
+$white-offset: #f1baba;
+$steel: #5c5a5a;
+
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: lighten($primary, 10%);
+$link-hover-decoration: underline;
+
+$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
+$font-family-heading: "Playfair Display", Georgia, serif, -apple-system;
+
+$footer-background-color: $primary;
+$footer-text-color: $white;
+$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-text-color: $white;
+
+@import "serif/bootstrap/functions";
+@import "serif/bootstrap-variables";
+@import "serif/bootstrap/variables";
+@import "serif/bootstrap/variables-dark";
+@import "serif/bootstrap/maps";
+@import "serif/bootstrap/mixins";
+@import "serif/bootstrap/utilities";
+@import "serif/bootstrap/root";
+@import "serif/bootstrap/reboot";
+@import "serif/bootstrap/type";
+@import "serif/bootstrap/images";
+@import "serif/bootstrap/containers";
+@import "serif/bootstrap/grid";
+@import "serif/bootstrap/tables";
+@import "serif/bootstrap/forms";
+@import "serif/bootstrap/helpers";
+@import "serif/bootstrap/utilities/api";
+
+@import "serif/libraries/hamburgers/hamburgers";
+
+@import "serif/components/type";
+@import "serif/components/page";
+@import "serif/components/header";
+@import "serif/components/footer";
+@import "serif/components/sub-footer";
+@import "serif/components/logo";
+@import "serif/components/main-menu";
+@import "serif/components/main-menu-mobile";
+@import "serif/components/hamburger";
+@import "serif/components/buttons";
+@import "serif/components/call";
+@import "serif/components/title";
+@import "serif/components/content";
+@import "serif/components/intro";
+@import "serif/components/intro-image";
+@import "serif/components/strip";
+@import "serif/components/feature";
+@import "serif/components/social";
+
+@import "serif/pages/page-home";
+@import "serif/pages/page-teams";
+@import "serif/pages/page-service";
+
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: $font-family-base;
+
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
+
+.partner-logo {
+  max-width: 100%;
+  width: auto;
+  height: 48px;
+  object-fit: contain;
+}
+
+.post-meta {
+  color: $steel;
+  font-size: 0.95rem;
+}

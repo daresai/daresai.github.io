@@ -6,8 +6,7 @@ sitemap: false
 permalink: /team/
 ---
 <h1>Team</h1>
-<center><img src="/images/team.jpg" style="border-radius: 0;" width="1200" height="250" align="center"></center>
-<br>
+<img src="{{ '/images/team.jpg' | relative_url }}" alt="DARES research team" class="img-fluid">
 
 {% assign universities = site.data.team_faculty | group_by: "university" %}
 {% for university in universities %}
@@ -22,7 +21,7 @@ rel="noopener noreferrer"
 style="text-decoration:none; color:inherit;">
 
 <h2 style="display:flex; align-items:center;">
-<img src="{{ site.url }}{{ site.baseurl }}/images/universities/{{ uni.logo }}" alt="{{ university.name }}" style="height:60px; vertical-align:middle; margin-right:10px;"> {{ uni.name }}
+<img src="{{ '/images/universities/' | append: uni.logo | relative_url }}" alt="{{ university.name }}" style="height:60px; width:auto; vertical-align:middle; margin-right:10px;"> {{ uni.name }}
 </h2>
 </a>
 </div>
@@ -33,8 +32,8 @@ style="text-decoration:none; color:inherit;">
 
 {% for member in university.items %}
 
-<div class="col-sm-4 clearfix" style="margin-bottom:25px;">
-<img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" style="float:left; width:30%; margin-right:8px;">
+<div class="col-sm-4 clearfix" style="margin-bottom:25px">
+<img src="{{ '/images/teampic/' | append: member.photo | relative_url }}" alt="{{ member.name }}" class="img-fluid" style="float:left; width:30%; margin:0 12px 8px 0; border-radius: 10%">
 <div style="overflow:hidden;">
 
 
