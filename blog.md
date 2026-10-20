@@ -9,11 +9,11 @@ permalink: /blog/
 <ul class="post-list">
   {% for post in site.posts %}
   <li>
-    <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    <span class="post-date">{{ post.date | date: "%B %Y" }}</span>
     <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    {% if post.excerpt %}
+    <!-- {% if post.excerpt %}
       <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
-    {% endif %}
+    {% endif %} -->
   </li>
   {% endfor %}
 </ul>

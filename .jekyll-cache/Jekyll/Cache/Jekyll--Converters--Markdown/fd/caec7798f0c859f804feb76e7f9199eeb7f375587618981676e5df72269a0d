@@ -1,0 +1,28 @@
+I"-<p>Internet Research Task Force, SUSTAIN RG, has the goal:</p>
+<blockquote>
+  <p>“to contribute to the advancement of the Internet as a fundamental part of sustainable and resilient societies and the planet, through conceptual and evidence-based multi-disciplinary research collaboration.” <a href="https://www.irtf.org/sustain.html">irtf.org</a></p>
+</blockquote>
+
+<p>The IRTF sub groups provide research input into the main Internet Engineering Task Force (IETF) standards making body.</p>
+
+<p>The IRTF Sustain RG meeting at University of Passau, Germany, was the precursor to the main IETF 126 meeting held the following week in Vienna.</p>
+
+<p>There were about 50 people attending from across the three physical infrastructures of internet, telecoms and energy. It was notable that many of the people in the room had been involved in establishing some of the earliest standards in these industries, the level of expertise and experience in these industries was incredibly high. Quite a few were no longer employed by the large tech company they had been known as representing in the past, but remained central to the research group due to their experience.</p>
+
+<p>The format was keynotes based on research followed by panel discussions, centred around a theme. But the focus was always the lack of power on the grid compared to increasing demand, especially from internet services. Efficiency, resilience, sufficiency (in grid, or internet, or telco equipment) these were all on the table in different technical forms. The “megatrend of electrification” (due to electrification of transport, for example) is colliding with the massive increase in internet service demands (such as from data centers).</p>
+
+<p>The big takeaway: power routing or “packet switched energy system”. Several power companies are working on using internet protocol approaches and applying them to electrical power routing. For some power engineers “this is like breaking physics” (meaning this is extremely contentious and experimental but they are testing it on-grid in some limited forms already). The principle is that you can use batteries to create ‘pulses’ of electricity that you can then ‘route’ to where energy is needed. The electricity grid is built for peak load, which means that for most of the time it is under-utilised and there is spare capacity. The aim is to combine predictive understanding of where electricity is needed in the future along with the technical ability (in the form of “energy routers”) to ‘route’ pulses of electricity to batteries in those locations, so you can ‘send’ electricity to where it will be needed whilst there is capacity. In simple test implementations, they are just looking at how to add power connectors (just within kerbside boxes) to increase the passive ‘routing’ potential of the grid: basically, if you analyse the grid in a local area, you can identify where to add connectors between cables, to increase efficient power distribution. Then the next step is to add battery capacity to move towards an “energy router”.</p>
+
+<p>Some internet engineers warned that they should learn from the IP standards that had led to ‘unintended consequences’; internet standards might not necessarily be some golden benchmark for the electricity grid.</p>
+
+<p>Additional takeaways:</p>
+<ul>
+  <li>the European grid uses frequency as, in essence, broadcast communications; frequency is how the grid is balanced and why you don’t necessarily need data, it comes with the electricity; so if you start to do something like power routing you loose the ability of frequency to provide that information and therefore add enormous complexity to grid transmission, which has resilience issues.</li>
+  <li>light-hearted debate about whether it was the electrical grid or the internet that was the “longest system on the planet”</li>
+  <li>important note that internet infrastructures are currently undergoing vast levels of investment by the tech industry, which are orders of magnitude more investment than funds going to the public utilities and energy industry.</li>
+</ul>
+
+<p>My keynote was on ‘Serious Solarpunk’ which is a sociotechnical method for getting sustainable energy and internet infrastructures up and running in close collaboration with place-based communities; drawing on my long standing research in Orkney, Scotland. General response was extremely positive and warm. Following debate raised questions like how to federate such local projects in ways that did not lead to franchise takeovers.</p>
+
+<p>The final discussion ended with reflections on how research, such as that presented, could impact standards and the work ongoing in IETF. I also raised the question of, if we are considering the “internetification of the grid” then what might be learned the other way in a “gridification of the internet”?</p>
+:ET
