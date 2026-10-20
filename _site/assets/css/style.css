@@ -2248,7 +2248,7 @@ body { font-size: 16px; line-height: 1.2; font-family: Helvetica, Arial, sans-se
 
 @media (min-width: 768px) { body { font-size: 16px; line-height: 1.3; } }
 
-.partner-logo { max-width: 100%; width: auto; height: 48px; object-fit: contain; }
+.partner-logo { max-width: 100%; width: auto; height: 64px; object-fit: contain; }
 
 .post-meta { color: #5c5a5a; font-size: 0.95rem; }
 
